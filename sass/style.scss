@@ -1,0 +1,253 @@
+@import "variables";
+@import "reset";
+@import "fonts";
+@import "fontawesome";
+// @import "styleguide";
+//@import "blog";
+
+/* sass goes here */
+$gold: hsla(43, 100%, 50%, 1);
+$green: hsla(135, 55%, 33%, 1);
+$greendark: darken($green, 5);
+$black: hsla(0, 0%, 9%, 1);
+$white: hsla(0, 0%, 95%, 1);
+
+html, body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: $black;
+}
+p {
+	margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6, blockquote {
+	font-family: 'Klinic Slab Book', serif;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+.cg-title,
+.cg-tag,
+.cg-tree{fill: $white;}
+.cg-shadow{fill: $gold;}
+.g-logo {fill: $white;}
+// .g-tag {fill: $white;}
+.g-grad{fill:url(#g-grad);}
+
+.sec-pad {
+	padding: 40px;
+}
+input {
+	width: 100%;
+	display: block;
+	border: none;
+	padding: 10px;
+	line-height: 1.25;
+	font-size: 125%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	&:last-child {
+		margin: 0;
+	}
+}
+input[type="submit"]{
+	color: $black;
+	background-color: $gold;
+	border-radius: 7.5px;
+}
+
+
+body {
+	background-image: linear-gradient(transparentize($black, .1), transparentize($black, .1)), url("../img/header.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: $white;
+	font-family: 'Neue Haas Unica W1G Thin', sans-serif;
+	letter-spacing: .05rem;
+	font-weight: 100;
+}
+header {
+	position: relative;
+	padding: 100px 5vw 5vw;
+	a {
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+		svg {width: 100%;}
+	}
+}
+#reserve {
+	display: flex;
+	div {
+		flex: 1;
+		min-height: 25vw;
+	}
+	div:last-child{
+		background-color: $green;
+		background-image: linear-gradient(to top, $greendark, $green);
+		display: flex;
+	}
+	form {
+		border: 1px solid $gold;
+		border-radius: 7.5px;
+		p {
+			color: $white;
+			margin-bottom: 1em;
+		}
+	}
+}
+#testimonials {
+	display: flex;
+	div {
+		flex: 1;
+		min-height: 25vw;
+	}
+	> div:first-child{
+		background-image: url("../img/photo01.jpg");
+		background-position: left center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+	}
+	div div {
+		border: 1px solid $gold;
+		border-radius: 7.5px;
+	}
+}
+#team {
+	background-image: linear-gradient(transparentize($white, .1), transparentize($white, .05)), url("../img/header.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: $black;
+	ul {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		flex-wrap: wrap;
+	}
+	li {
+		text-align: center;
+		padding: 20px;
+	}
+	img {
+		border-radius: 100%;
+		padding: 5px;
+		border: 1px solid darken($white, 10);
+	}
+	address {
+		font-style: normal;
+		display: flex;
+		flex-direction: column;
+	}
+}
+#cta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 25vw;
+	background-color: $green;
+	background-image: linear-gradient(to top, $greendark, $green);
+	input[type="submit"]{
+		width: auto;
+	}
+}
+#google {
+	min-height: 25vw;
+	background-image: url("../img/map.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+footer {
+	text-align: center;
+	background-color: #303030;
+	padding: 10px;
+	font-size: 80%;
+	color: transparentize($white, .25);
+	img {
+		max-width: 100%;
+	}
+	div {
+		display: flex;
+	}
+	p{
+		margin-right: auto;
+	}
+	.bug {
+		color: transparentize($white, .5);
+	}
+}
+@media screen and (max-width: 580px){
+	.sec-pad {
+		padding: 5vw;
+	}
+}
+@media screen and (max-width: 767px){
+	#reserve, #testimonials {
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
+blockquote {
+	font-size: 150%;
+	i.fa {
+		display: block;
+		width: 50px;
+		height: 50px;
+		font-size: 3rem;
+		padding: 10px;
+		margin: 0 0 40px 0;
+		border: 1px solid $gold;
+		text-align: center;
+		line-height: 50px;
+		color: $gold;
+	}
+	cite {
+		display: block;
+		margin-top: 20px;
+		&::before {
+			content: "- ";
+		}
+	}
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #101010;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	h1 {
+		margin: 0;
+		display: flex;
+		align-items: flex-start;
+		svg {width: 85px;height: auto;}
+	}
+}
+
+

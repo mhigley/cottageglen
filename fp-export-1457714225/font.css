@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'ITC Berkeley Oldstyle Std Blk';
+  src: url('ITC Berkeley Oldstyle Std Black.eot'); /* IE9 Compat Modes */
+  src: url('ITC Berkeley Oldstyle Std Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ITC Berkeley Oldstyle Std Black.woff') format('woff'), /* Modern Browsers */
+       url('ITC Berkeley Oldstyle Std Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ITC Berkeley Oldstyle Std Black.svg#f3ba4b362362d3560d8046eb42c69921') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'ITC Berkeley Oldstyle Std';
+  src: url('ITC Berkeley Oldstyle Std Bold.eot'); /* IE9 Compat Modes */
+  src: url('ITC Berkeley Oldstyle Std Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ITC Berkeley Oldstyle Std Bold.woff') format('woff'), /* Modern Browsers */
+       url('ITC Berkeley Oldstyle Std Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ITC Berkeley Oldstyle Std Bold.svg#ab42e2f0540f303cdfbabc0077a95ca6') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'ITC Berkeley Oldstyle Std Bk';
+  src: url('ITC Berkeley Oldstyle Std Book.eot'); /* IE9 Compat Modes */
+  src: url('ITC Berkeley Oldstyle Std Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ITC Berkeley Oldstyle Std Book.woff') format('woff'), /* Modern Browsers */
+       url('ITC Berkeley Oldstyle Std Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ITC Berkeley Oldstyle Std Book.svg#c43e3ccf385b9306cd9912da7b425e75') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'ITC Berkeley Oldstyle Std';
+  src: url('ITC Berkeley Oldstyle Std Medium.eot'); /* IE9 Compat Modes */
+  src: url('ITC Berkeley Oldstyle Std Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ITC Berkeley Oldstyle Std Medium.woff') format('woff'), /* Modern Browsers */
+       url('ITC Berkeley Oldstyle Std Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ITC Berkeley Oldstyle Std Medium.svg#04fe7e918e0d9ab02a7b57420e8c565a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

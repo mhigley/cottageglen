@@ -38,6 +38,11 @@ h4 {
 	font-size: 1.25rem;
 	margin: 0;
 }
+.editable {
+	min-height: auto !important;
+	border: none !important;
+	border-radius: none !important;
+}
 
 .cg-title,
 .cg-tag,
@@ -93,11 +98,11 @@ header {
 }
 #reserve {
 	display: flex;
-	div {
+	> div {
 		flex: 1;
 		min-height: 25vw;
 	}
-	div:last-child{
+	> div:last-child{
 		background-color: $green;
 		background-image: linear-gradient(to top, $greendark, $green);
 		display: flex;

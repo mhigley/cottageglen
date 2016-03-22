@@ -3076,6 +3076,12 @@ h4 {
   margin: 0;
 }
 
+.editable {
+  min-height: auto !important;
+  border: none !important;
+  border-radius: none !important;
+}
+
 .cg-title,
 .cg-tag,
 .cg-tree {
@@ -3148,13 +3154,13 @@ header a svg {
   display: -ms-flexbox;
   display: flex;
 }
-#reserve div {
+#reserve > div {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
   min-height: 25vw;
 }
-#reserve div:last-child {
+#reserve > div:last-child {
   background-color: #26823d;
   background-image: linear-gradient(to top, #206f34, #26823d);
   display: -webkit-flex;

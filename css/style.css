@@ -3344,3 +3344,6 @@ nav h1 svg {
   width: 85px;
   height: auto;
 }
+.editable {
+    min-height: auto !important;
+}

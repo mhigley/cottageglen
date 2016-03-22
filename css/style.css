@@ -3043,6 +3043,34 @@ h1, h2, h3, h4, h5, h6, p {
   content: "\f295";
 }
 
+/*
+html, body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: $black;
+}
+p {
+	margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6, blockquote {
+	font-family: 'Klinic Slab Book', serif;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.25rem;
+	margin: 0;
+}
+*/
 /* sass goes here */
 html, body {
   min-height: 100%;

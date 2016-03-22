@@ -3080,6 +3080,8 @@ h4 {
   min-height: auto !important;
   border: none !important;
   border-radius: none !important;
+  background-color: none !important;
+  background-image: none !important;
 }
 
 .cg-title,
